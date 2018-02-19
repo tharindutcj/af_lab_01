@@ -10,6 +10,11 @@
     <span id="txt_label"></span>
 </body>
 <script>
+    var helloWorld = function () {
+        console.log("Hello World");
+    }
+    console.log(helloWorld());
+
     function myFunction() {
         var x = document.getElementById("typed_txt");
         document.getElementById("txt_label").innerHTML = x.value;
