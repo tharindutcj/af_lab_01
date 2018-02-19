@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AF Lab 01</title>
+</head>
+<body>
+    Enter Anything: <input type="text" id="typed_txt" onkeyup="myFunction()">
+    <br>
+    <span id="txt_label"></span>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("typed_txt");
+        document.getElementById("txt_label").innerHTML = x.value;
+    }
+</script>
+</html>
