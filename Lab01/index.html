@@ -13,7 +13,12 @@
     var helloWorld = function () {
         console.log("Hello World");
     }
-    console.log(helloWorld());
+    //console.log(helloWorld());
+    function execute(callback){
+        callback();
+    }
+
+    execute(helloWorld);
 
     function myFunction() {
         var x = document.getElementById("typed_txt");
